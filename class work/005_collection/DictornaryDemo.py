@@ -72,4 +72,6 @@ print(tuple(d)) # zip object ko tuple me convert kar ke print karega
 print(set(d)) # zip object ko set me convert kar ke print karega
 
 k = {"a":1, "b":2, "c":3}
-
+k.setdefault("d",4) # setdefault method se agar key exist nahi karti hai to usko add kar deta hai aur uski value set kar deta hai
+k['b'] = 20 # agar key exist karti hai to uski value update kar deta hai
+print(k)
